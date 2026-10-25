@@ -1,12 +1,15 @@
 import React from 'react';
+import './AboutUs.css';
 
 function AboutUs() {
   return (
-    <div>
-      <h2>About Us</h2>
-      <p>
-        We are a company committed to delivering quality products and services
-        while ensuring customer satisfaction through innovation and excellence.
+    <div className="about-us-container">
+      <h1 className="about-us-heading">About Us</h1>
+      <p className="about-us-description">
+        Welcome to Paradise Nursery, your one-stop shop for vibrant house plants, succulents, and gardening supplies.
+      </p>
+      <p className="about-us-content">
+        Our mission is to bring nature closer to your home and workplace while providing healthy plants and professional care guides.
       </p>
     </div>
   );
