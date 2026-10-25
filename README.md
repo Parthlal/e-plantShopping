@@ -1,8 +1,13 @@
-# e-plantShopping
+# Simple Interest Calculator
 
-A React-based e-commerce shopping cart application for Paradise Nursery, built with Redux Toolkit for state management.
+A Bash script designed to calculate simple interest based on user inputs for principal amount, annual interest rate, and time period in years.
 
-## Features
-- Landing page with company background and "Get Started" button.
-- Product listing page featuring plant categories, pricing, and "Add to Cart" toggles.
-- Redux-powered cart management (add, remove, update quantities, subtotal, and total price calculation).
+## Formula
+Simple Interest = (Principal * Rate * Time) / 100
+
+## Usage
+1. Make the script executable:
+   chmod +x simple-interest.sh
+
+2. Run the script:
+   ./simple-interest.sh
